@@ -33,8 +33,20 @@ Correlation analysis using a heatmap and scatter plot revealed a strong relation
 
 ### Regression Analysis
 After confirming the relationship among the variables, three prediction models—Linear Regression, RNN, and LSTM—were evaluated using the MSE, MAE, and RMSE metrics to measure prediction errors. Lower error values indicate better model performance and higher prediction accuracy.
-| Parameter | Value |
-|-----------|------:|
-| Population Size | 30 |
-| Maximum Iteration | 100 |
-| Kp Range | 0–100 |
+
+### Performance Evaluation
+After confirming the relationship among the variables, three prediction models—Linear Regression, RNN, and LSTM—were evaluated using the MSE, MAE, and RMSE metrics to measure prediction errors. Lower error values indicate better model performance and higher prediction accuracy.
+
+| Model | MSE ↓ | MAE ↓ | RMSE ↓ |
+|:------------------|------:|------:|------:|
+| **Linear Regression** | **0.1858** | **0.3411** | **0.4311** |
+| LSTM | 0.2143 | 0.3701 | 0.4630 |
+| RNN | 0.2201 | 0.3786 | 0.4692 |
+
+### Visual Evaluation
+<img width="886" height="711" alt="image" src="https://github.com/user-attachments/assets/46a51c46-21d6-4b04-beac-60767309da76" />
+<img width="915" height="592" alt="image" src="https://github.com/user-attachments/assets/235eb127-6940-4c5c-8689-547f2a69fa94" />
+<img width="915" height="592" alt="image" src="https://github.com/user-attachments/assets/4e3ad9eb-af3d-423d-8c5d-37bf0c79ac64" />
+
+
+The prediction visualization shows that the Linear Regression model produces a curve that most closely matches the actual data compared to the RNN and LSTM models. This observation is consistent with the evaluation results based on MSE, MAE, and RMSE, confirming that Linear Regression achieved the best predictive performance on the dataset.
