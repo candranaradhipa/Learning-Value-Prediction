@@ -49,3 +49,10 @@ The prediction visualization shows that the Linear Regression model produces a c
 <img width="886" height="711" alt="image" src="https://github.com/user-attachments/assets/46a51c46-21d6-4b04-beac-60767309da76" />
 <img width="915" height="592" alt="image" src="https://github.com/user-attachments/assets/235eb127-6940-4c5c-8689-547f2a69fa94" />
 <img width="915" height="592" alt="image" src="https://github.com/user-attachments/assets/4e3ad9eb-af3d-423d-8c5d-37bf0c79ac64" />
+
+# Contributor
+[**Candra Naradhipa Cahyakusuma**](https://github.com/candranaradhipa)
+
+[Robotics and AI Engineering](https://ftmm.unair.ac.id/teknik-robotika-dan-kecerdasan-buatan-program-studi/), [Universitas Airlangga](https://unair.ac.id/)
+
+<candradhipa16@gmail.com>
