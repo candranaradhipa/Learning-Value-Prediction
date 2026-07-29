@@ -44,9 +44,8 @@ After confirming the relationship among the variables, three prediction modelsâ€
 | RNN | 0.2201 | 0.3786 | 0.4692 |
 
 ### Visual Evaluation
+The prediction visualization shows that the Linear Regression model produces a curve that most closely matches the actual data compared to the RNN and LSTM models. This observation is consistent with the evaluation results based on MSE, MAE, and RMSE, confirming that Linear Regression achieved the best predictive performance on the dataset.
+
 <img width="886" height="711" alt="image" src="https://github.com/user-attachments/assets/46a51c46-21d6-4b04-beac-60767309da76" />
 <img width="915" height="592" alt="image" src="https://github.com/user-attachments/assets/235eb127-6940-4c5c-8689-547f2a69fa94" />
 <img width="915" height="592" alt="image" src="https://github.com/user-attachments/assets/4e3ad9eb-af3d-423d-8c5d-37bf0c79ac64" />
-
-
-The prediction visualization shows that the Linear Regression model produces a curve that most closely matches the actual data compared to the RNN and LSTM models. This observation is consistent with the evaluation results based on MSE, MAE, and RMSE, confirming that Linear Regression achieved the best predictive performance on the dataset.
